@@ -28,7 +28,7 @@ namespace SEDC.WebApi.Notes.Api.Controllers
             }
         }
 
-        [HttpGet("{id}/user/{userId}")]
+        [HttpGet("/{id}/user/{userId}")]
         public ActionResult<NoteDto> GetNote(int id, int userId)
         {
             try
