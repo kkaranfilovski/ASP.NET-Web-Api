@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.WebApi.Class06.DbFirst", "SEDC.WebApi.Class06.DbFirst\SEDC.WebApi.Class06.DbFirst.csproj", "{400F8EDC-DA3D-4907-B25F-537118FAB038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.WebApi.Class06.CodeFirst", "SEDC.WebApi.Class06.CodeFirst\SEDC.WebApi.Class06.CodeFirst.csproj", "{914A1D8F-ED58-4609-88A3-19B4B9C62D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{400F8EDC-DA3D-4907-B25F-537118FAB038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400F8EDC-DA3D-4907-B25F-537118FAB038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400F8EDC-DA3D-4907-B25F-537118FAB038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400F8EDC-DA3D-4907-B25F-537118FAB038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914A1D8F-ED58-4609-88A3-19B4B9C62D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914A1D8F-ED58-4609-88A3-19B4B9C62D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914A1D8F-ED58-4609-88A3-19B4B9C62D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914A1D8F-ED58-4609-88A3-19B4B9C62D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B095AF1-88A7-4451-9BBD-2A33738FFAF3}
+	EndGlobalSection
+EndGlobal
