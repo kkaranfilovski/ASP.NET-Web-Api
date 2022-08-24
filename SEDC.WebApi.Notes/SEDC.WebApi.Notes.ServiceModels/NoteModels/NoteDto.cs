@@ -1,4 +1,6 @@
-﻿using SEDC.WebApi.Notes.ServiceModels.Enum;
+﻿
+
+using SEDC.WebApi.Notes.ServiceModels.Enum;
 
 namespace SEDC.WebApi.Notes.ServiceModels.NoteModels
 {

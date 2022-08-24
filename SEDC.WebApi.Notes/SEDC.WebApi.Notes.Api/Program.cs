@@ -1,3 +1,4 @@
+using SEDC.WebApi.Notes.Common.Models;
 using SEDC.WebApi.Notes.DependecyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,8 +10,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var appConfig = builder.Configuration.GetSection("AppSettings");
+builder.Services.Configure<AppSettings>(appConfig);
+
+var appSettings = appConfig.Get<AppSettings>();
+
 builder.Services
-    .RegisterDataDependecies()
+    .RegisterDataDependecies(appSettings.ConnString)
     .RegisterServicesDependecies();
 
 var app = builder.Build();

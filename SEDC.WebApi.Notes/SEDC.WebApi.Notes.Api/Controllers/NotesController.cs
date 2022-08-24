@@ -42,5 +42,33 @@ namespace SEDC.WebApi.Notes.Api.Controllers
             }
         }
 
+        [HttpPost("create-note")]
+        public ActionResult CreateNote(CreateNoteDto request)
+        {
+            try
+            {
+                _noteService.AddNote(request);
+                return StatusCode(StatusCodes.Status201Created, "ILIJA KE TE TEPA");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete("delete-note/{id}/user/{userId}")]
+        public ActionResult DeleteNote(int id, int userId)
+        {
+            try
+            {
+                _noteService.DeleteNote(id, userId);
+                return StatusCode(StatusCodes.Status204NoContent);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
     }
 }
