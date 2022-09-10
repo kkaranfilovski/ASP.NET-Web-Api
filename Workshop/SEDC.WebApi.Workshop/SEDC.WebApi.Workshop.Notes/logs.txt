@@ -1,0 +1,3 @@
+9/10/2022 7:50:47 AM [DBG] User validation ended in 1349 
+9/10/2022 7:51:01 AM [WRN] User Kiko123 tried to log in with wrong password 
+9/10/2022 8:26:04 AM [WRN] User Kiko123 tried to log in with wrong password 
