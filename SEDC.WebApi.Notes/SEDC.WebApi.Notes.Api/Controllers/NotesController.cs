@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SEDC.WebApi.Notes.ServiceModels.NoteModels;
 using SEDC.WebApi.Notes.Services.Interfaces;
 
 namespace SEDC.WebApi.Notes.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/v1/[controller]")]
     public class NotesController : ControllerBase

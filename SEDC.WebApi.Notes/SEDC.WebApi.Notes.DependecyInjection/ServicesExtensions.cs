@@ -9,6 +9,7 @@ namespace SEDC.WebApi.Notes.DependecyInjection
         public static IServiceCollection RegisterServicesDependecies(this IServiceCollection services)
         {
             services.AddTransient<INoteService, NoteService>();
+            services.AddTransient<IUserService, UserService>();
 
             return services;
         }
